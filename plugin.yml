@@ -1,7 +1,0 @@
----
-name: WorldHelper
-version: 0.0.1
-main: banira4649\WorldHelper\Main
-api: 4.0.0
-src-namespace-prefix: banira4649\WorldHelper
-...
