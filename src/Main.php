@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace banira4649\WorldHelper;
 
 use pocketmine\plugin\PluginBase;
-use banira4649\WorldHelper\commands\{WorldCommand};
+use banira4649\WorldHelper\commands\WorldCommand;
 
 class Main extends PluginBase implements \pocketmine\event\Listener{
 
