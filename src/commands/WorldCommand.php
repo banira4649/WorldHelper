@@ -10,6 +10,7 @@ use pocketmine\player\Player;
 class WorldCommand extends Command{
 
     public function __construct(string $name, $main){
+        $this->setPermission("pocketmine.group.operator");
         parent::__construct($name, "ワールドに関する操作を行います");
         $this->main = $main;
         $this->server = $main->getServer();
