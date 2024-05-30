@@ -15,7 +15,7 @@ class WorldCommand extends Command{
 
     public function __construct(string $name, PluginBase $main){
         $this->setPermission("pocketmine.group.operator");
-        parent::__construct($name, "ワールドに関する操作を行います");
+        parent::__construct($name, "ワールドに関する操作を行います", "/world [load|unload|tp|list] [string: name]");
         $this->worldManager = $main->getServer()->getWorldManager();
     }
 
